@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "Starting Grin Miner..."
-grin-miner/target/debug/grin-miner --floonet
+pushd ../grin-miner
+echo "Starting grin miner..."
+target/debug/grin-miner --floonet
