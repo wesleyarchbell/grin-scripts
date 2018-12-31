@@ -8,7 +8,7 @@ Simple scripts in order to run:
 
 Steps to setup grin node, wallet & miner:
 
-Grin
+## Grin
 * git clone https://github.com/mimblewimble/grin
 * cd grin
 * cargo build --release
@@ -19,8 +19,7 @@ Grin
 * Change: enable_stratum_server = true
 * RUST_BACKTRACE=1 ./grin --floonet
 
-Grin Wallet
-
+## Grin Wallet
 * cd grin/target/release
 * cd ~/.grin/floo
 * vi grin-wallet.toml
@@ -37,8 +36,7 @@ Grin Wallet
 * It should should be able to connect and say port is open
 * Your wallet can now receive coins at http://<external_ip_address>:13415
 
-Grin Miner
-
+## Grin Miner
 * git clone https://github.com/mimblewimble/grin-miner
 * git submodule update --remote --recursive
 * cargo build
