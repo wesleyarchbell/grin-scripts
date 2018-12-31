@@ -30,7 +30,7 @@ Steps to setup grin node, wallet & miner:
     * gcloud compute firewall-rules create grin-wallet-port --direction=INGRESS --action=ALLOW --rules=tcp:13415 --target-tags=grin-node
     * gcloud compute instances list
 * RUST_BACKTRACE=1 ./grin --floonet wallet init
-* RUST_BACKTRACE=1 ./grin --floonet wallet listen (or use ~/grin-scripts/run-waller.sh)
+* RUST_BACKTRACE=1 ./grin --floonet wallet listen (or use ~/grin-scripts/run-wallet.sh)
 * Go to https://www.yougetsignal.com/tools/open-ports/
 * Type in external ip from the command (gcloud compute instances list)
 * Type in port 13415
