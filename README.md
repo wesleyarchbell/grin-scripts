@@ -9,6 +9,7 @@ Simple scripts in order to run:
 Steps to setup grin node, wallet & miner:
 
 ## Grin
+* cd ~
 * git clone https://github.com/mimblewimble/grin
 * cd grin
 * cargo build --release
@@ -17,9 +18,10 @@ Steps to setup grin node, wallet & miner:
 * cd target release
 * vi grin-server.toml
 * Change: enable_stratum_server = true
-* RUST_BACKTRACE=1 ./grin --floonet
+* RUST_BACKTRACE=1 ./grin --floonet (or use ~/grin-scripts/run-grin.sh)
 
 ## Grin Wallet
+* cd ~
 * cd grin/target/release
 * cd ~/.grin/floo
 * vi grin-wallet.toml
@@ -28,7 +30,7 @@ Steps to setup grin node, wallet & miner:
     * gcloud compute firewall-rules create grin-wallet-port --direction=INGRESS --action=ALLOW --rules=tcp:13415 --target-tags=grin-node
     * gcloud compute instances list
 * RUST_BACKTRACE=1 ./grin --floonet wallet init
-* RUST_BACKTRACE=1 ./grin --floonet wallet listen
+* RUST_BACKTRACE=1 ./grin --floonet wallet listen (or use ~/grin-scripts/run-waller.sh)
 * Go to https://www.yougetsignal.com/tools/open-ports/
 * Type in external ip from the command (gcloud compute instances list)
 * Type in port 13415
@@ -37,7 +39,16 @@ Steps to setup grin node, wallet & miner:
 * Your wallet can now receive coins at http://<external_ip_address>:13415
 
 ## Grin Miner
+* cd ~
 * git clone https://github.com/mimblewimble/grin-miner
 * git submodule update --remote --recursive
 * cargo build
-* target/debug/grin-miner --floonet
+* target/debug/grin-miner --floonet (or use ~/grin-scripts/run-miner.sh)
+
+## Grin scripts
+* cd ~
+* git clone https://github.com/wesleyarchbell/grin-scripts
+* cd grin-scripts
+* chmod +x * 
+* Run each script file in a seperate terminal window
+
