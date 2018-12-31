@@ -25,8 +25,8 @@ Steps to setup grin node, wallet & miner:
 * vi grin-wallet.toml
 * api_listen_interface = 0.0.0.0
 * From a seperate tab in google cloud console run following commands: 
-** gcloud compute firewall-rules create grin-wallet-port --direction=INGRESS --action=ALLOW --rules=tcp:13415 --target-tags=grin-node
-** gcloud compute instances list
+    * gcloud compute firewall-rules create grin-wallet-port --direction=INGRESS --action=ALLOW --rules=tcp:13415 --target-tags=grin-node
+    * gcloud compute instances list
 * RUST_BACKTRACE=1 ./grin --floonet wallet init
 * RUST_BACKTRACE=1 ./grin --floonet wallet listen
 * Go to https://www.yougetsignal.com/tools/open-ports/
