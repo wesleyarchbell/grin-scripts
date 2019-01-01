@@ -21,7 +21,7 @@
 * cargo build --release
 * cd target/release
 * vi grin-server.toml
-* Change: enable_stratum_server = true
+* Uodate: enable_stratum_server = true
 * RUST_BACKTRACE=1 ./grin --floonet (or use ~/grin-scripts/run-grin.sh)
 
 ### Grin Wallet
@@ -29,7 +29,7 @@
 * cd grin/target/release
 * cd ~/.grin/floo
 * vi grin-wallet.toml
-* api_listen_interface = 0.0.0.0
+* Uodate: api_listen_interface = 0.0.0.0
 * From a seperate tab in google cloud console run following commands: 
     * gcloud compute firewall-rules create grin-wallet-port --direction=INGRESS --action=ALLOW --rules=tcp:13415 --target-tags=grin-node
     * gcloud compute instances list
