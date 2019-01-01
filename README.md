@@ -14,7 +14,7 @@
 
 ## Steps to setup grin node, wallet & miner:
 
-### Grin
+### Grin Node
 * cd ~
 * git clone https://github.com/mimblewimble/grin
 * cd grin
