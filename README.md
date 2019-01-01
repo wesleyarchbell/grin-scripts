@@ -1,26 +1,30 @@
 # grin-scripts
 
-Simple scripts in order to run:
+## Simple scripts in order to run:
 
-* grin node: ./run-grin.sh
-* grin wallet: ./run-wallet.sh
-* grin miner: ./run-miner.sh
+* grin node: run-grin.sh
+* grin wallet: run-wallet.sh
+* grin miner: run-miner.sh
 
-Steps to setup grin node, wallet & miner:
+### Grin scripts
+* cd ~
+* git clone https://github.com/wesleyarchbell/grin-scripts
+* cd grin-scripts
+* chmod +x * 
 
-## Grin
+## Steps to setup grin node, wallet & miner:
+
+### Grin
 * cd ~
 * git clone https://github.com/mimblewimble/grin
 * cd grin
 * cargo build --release
 * cd target/release
-* ./grin -floonet server config
-* cd target release
 * vi grin-server.toml
 * Change: enable_stratum_server = true
 * RUST_BACKTRACE=1 ./grin --floonet (or use ~/grin-scripts/run-grin.sh)
 
-## Grin Wallet
+### Grin Wallet
 * cd ~
 * cd grin/target/release
 * cd ~/.grin/floo
@@ -38,17 +42,12 @@ Steps to setup grin node, wallet & miner:
 * It should should be able to connect and say port is open
 * Your wallet can now receive coins at http://<external_ip_address>:13415
 
-## Grin Miner
+### Grin Miner
 * cd ~
 * git clone https://github.com/mimblewimble/grin-miner
 * git submodule update --remote --recursive
 * cargo build
 * target/debug/grin-miner --floonet (or use ~/grin-scripts/run-miner.sh)
 
-## Grin scripts
-* cd ~
-* git clone https://github.com/wesleyarchbell/grin-scripts
-* cd grin-scripts
-* chmod +x * 
-* Run each script file in a seperate terminal window
+
 
