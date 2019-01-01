@@ -45,6 +45,8 @@
 ### Grin Miner
 * cd ~
 * git clone https://github.com/mimblewimble/grin-miner
+* cd grin-miner
+* git submodule update --init
 * git submodule update --remote --recursive
 * cargo build
 * target/debug/grin-miner --floonet (or use ~/grin-scripts/run-miner.sh)
