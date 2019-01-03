@@ -43,7 +43,7 @@
 * Your wallet can now receive coins at the following URL: http://<external_ip_address>:13415
 * Command to send grin to another wallet:
    * cd ~/grin/target/release
-   * UST_BACKTRACE=1 ./grin --floonet wallet send -d http://35.243.222.227:13415 <amount>
+   * RUST_BACKTRACE=1 ./grin --floonet wallet send -d http://35.243.222.227:13415 <amount>
    * Type in wallet password
    * The -d option is the destination wallet's address and port
    
