@@ -55,7 +55,7 @@
 * git submodule update --init
 * git submodule update --remote --recursive
 * cargo build
-* vi grin-miner.toml
+* vi grin-miner.toml (in order to mine with CPU on google cloud instance)
     * Replace 'cuckaroo_cpu_compat_29' with 'cuckatoo_lean_cpu_compat_19'
     * nthreads = 4
 * target/debug/grin-miner --floonet (or use ~/grin-scripts/run-miner.sh)
