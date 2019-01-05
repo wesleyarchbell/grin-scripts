@@ -20,7 +20,9 @@
 * cd grin
 * cargo build --release
 * cd target/release
-* vi grin-server.toml
+* If grin-server.toml does not exist in this directory run this command to generate one:
+    * RUST_BACKTRACE=1 ./grin --floonet server config
+* vi grin-server.toml 
     * Update: enable_stratum_server = true
 * RUST_BACKTRACE=1 ./grin --floonet (or use ~/grin-scripts/run-grin.sh)
 
