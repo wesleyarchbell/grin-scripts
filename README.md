@@ -48,7 +48,14 @@
    * RUST_BACKTRACE=1 ./grin --floonet wallet send -d http://35.243.222.227:13415 <amount>
    * Type in wallet password
    * The -d option is the destination wallet's address and port
-   
+* Command to see account balance information related to your wallet:
+   * cd ~/grin/target/release
+   * RUST_BACKTRACE=1 ./grin --floonet wallet info
+   * Type in wallet password
+* Command to see transaction history related to your wallet:
+   * cd ~/grin/target/release
+   * RUST_BACKTRACE=1 ./grin --floonet wallet txs
+   * Type in wallet password   
 
 ### Grin Miner
 * cd ~
