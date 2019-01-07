@@ -69,5 +69,24 @@
     * nthreads = 4
 * target/debug/grin-miner --floonet (or use ~/grin-scripts/run-miner.sh)
 
+### Grin Links
+* https://github.com/mimblewimble/grin
+* https://github.com/mimblewimble/docs/wiki/How-to%3A-Run-a-Grin-node-on-Google-Cloud-for-free
+
+### Grin Mining Links
+
+* https://github.com/mimblewimble/grin-miner
+* https://github.com/mimblewimble/docs/wiki/Wallet-User-Guide
+* https://youtu.be/Y-kF9RnkeJo
+* https://www.grin-forum.org/c/mining
+* https://github.com/mimblewimble/docs/wiki/GPU-Mining-Stats
+* https://www.grin-forum.org/t/what-to-mine-choosing-between-cuckatoo31-and-cuckaroo29/1732
+
+### Grin Mining Pools
+* MWGrinPool.com (https://mwgrinpool.com/)
+    * https://medium.com/@blade.doyle/gpu-mining-on-mwgrinpool-com-how-to-72970e550a27
+* GrinMint (https://grinmint.com/pages/index.html)   
+
+
 
 
