@@ -76,6 +76,8 @@
 ### Grin Mining Links
 
 * https://github.com/mimblewimble/grin-miner
+* https://github.com/mozkomor/GrinGoldMiner
+* https://github.com/tromp/cuckoo
 * https://github.com/mimblewimble/docs/wiki/Wallet-User-Guide
 * https://youtu.be/Y-kF9RnkeJo
 * https://www.grin-forum.org/c/mining
@@ -84,6 +86,7 @@
 
 ### Grin Mining Pools
 * MWGrinPool.com (https://mwgrinpool.com/)
+    * https://github.com/grin-pool/grin-pool     
     * https://medium.com/@blade.doyle/gpu-mining-on-mwgrinpool-com-how-to-72970e550a27
 * GrinMint (https://grinmint.com/pages/index.html)   
 
