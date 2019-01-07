@@ -26,6 +26,10 @@
     * Update: enable_stratum_server = true
 * RUST_BACKTRACE=1 ./grin --floonet (or use ~/grin-scripts/run-grin.sh)
 
+#### Grin Links
+* https://github.com/mimblewimble/grin
+* https://github.com/mimblewimble/docs/wiki/How-to%3A-Run-a-Grin-node-on-Google-Cloud-for-free
+
 ### Grin Wallet
 * From a seperate tab in google cloud console run following commands: 
     * gcloud compute firewall-rules create grin-wallet-port --direction=INGRESS --action=ALLOW --rules=tcp:13415 --target-tags=grin-node
@@ -56,6 +60,9 @@
    * cd ~/grin/target/release
    * RUST_BACKTRACE=1 ./grin --floonet wallet txs
    * Type in wallet password   
+   
+#### Grin Wallet Links
+* https://github.com/mimblewimble/docs/wiki/Wallet-User-Guide
 
 ### Grin Miner
 * cd ~
@@ -69,11 +76,7 @@
     * nthreads = 4
 * target/debug/grin-miner --floonet (or use ~/grin-scripts/run-miner.sh)
 
-### Grin Links
-* https://github.com/mimblewimble/grin
-* https://github.com/mimblewimble/docs/wiki/How-to%3A-Run-a-Grin-node-on-Google-Cloud-for-free
-
-### Grin Mining Links
+#### Grin Mining Links
 
 * https://github.com/mimblewimble/grin-miner
 * https://github.com/mozkomor/GrinGoldMiner
@@ -84,7 +87,7 @@
 * https://github.com/mimblewimble/docs/wiki/GPU-Mining-Stats
 * https://www.grin-forum.org/t/what-to-mine-choosing-between-cuckatoo31-and-cuckaroo29/1732
 
-### Grin Mining Pools
+#### Grin Mining Pool Links
 * MWGrinPool.com (https://mwgrinpool.com/)
     * https://github.com/grin-pool/grin-pool     
     * https://medium.com/@blade.doyle/gpu-mining-on-mwgrinpool-com-how-to-72970e550a27
