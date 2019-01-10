@@ -91,6 +91,7 @@
 * MWGrinPool.com (https://mwgrinpool.com/)
     * https://github.com/grin-pool/grin-pool     
     * https://medium.com/@blade.doyle/gpu-mining-on-mwgrinpool-com-how-to-72970e550a27
+    * https://www.youtube.com/watch?v=eRtzwo6W8iE
 * GrinMint (https://grinmint.com/pages/index.html)   
     * https://www.reddit.com/r/grincoin/comments/adwb3e/mining_grin_on_grinmint_a_stepbystep_tutorial/?st=JQO882M3&sh=b0b4b67d
 
