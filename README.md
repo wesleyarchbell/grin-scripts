@@ -86,6 +86,7 @@
 * https://www.grin-forum.org/c/mining
 * https://github.com/mimblewimble/docs/wiki/GPU-Mining-Stats
 * https://www.grin-forum.org/t/what-to-mine-choosing-between-cuckatoo31-and-cuckaroo29/1732
+* https://www.grin-forum.org/t/choice-of-asic-resistant-pow-for-gpu-miners/1017
 
 #### Grin Mining Pool Links
 * MWGrinPool.com (https://mwgrinpool.com/)
